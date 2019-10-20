@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Ben Krajacich
 
 # Username (this should match the folder name)
 authors:
@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Vector ecologist
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: National Institutes of Health
+  url: "https://www.niaid.nih.gov/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: I am a vector ecologist and microbiologist who is broadly interested in medical entomology that never strays too far from natural systems. My doctorate work was on the development of tools to help study the use of ivermectin as a malaria control measure in West Africa (Senegal, Liberia, and Burkina Faso), and my current work focuses on the dry-season persistence mechanisms of *Anopheles* spp. mosquitoes in Mali. Outside of work I like to ski, rock climb, and fly fish (past times of all Montanans...).
 
 interests:
 - Artificial Intelligence
@@ -27,15 +27,15 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: PhD in Microbiology
+    institution: Colorado State University
+    year: 2016
+  - course: Post-bac
+    institution: NIH - Rocky Mountain Labs
+    year: 2009-2011
+  - course: BSc in Biochemistry
+    institution: Montana State University
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -44,21 +44,21 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:bkrajacich@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/benkraj
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=kfgW2L0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/benkraj
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+ - icon: cv
+   icon_pack: ai
+   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,6 +70,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a vector ecologist and microbiologist who is broadly interested in medical entomology that never strays too far from natural systems. My doctorate work was on the development of tools to help study the use of ivermectin as a malaria control measure in West Africa (Senegal, Liberia, and Burkina Faso), and my current work focuses on the dry-season persistence mechanisms of *Anopheles* spp. mosquitoes in Mali. Outside of work I like to ski, rock climb, and fly fish (past times of all Montanans...).
