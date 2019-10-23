@@ -1,7 +1,7 @@
 ---
 title: Seasonal change in the microbiome of *Anopheles coluzzii*
 date: 2018-02-25T00:00:00
-authors: Ben
+authors: ""
 summary: Look into the seasonal microbiome of dry season Anopheles
 abstract: ""
 external_link: ""
