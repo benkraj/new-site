@@ -6,7 +6,7 @@ summary: Look into the seasonal microbiome of dry season Anopheles
 abstract: ""
 external_link: ""
 image:
-  caption: '[Fig4a](Fig4a.jpg)'
+  caption: '[Fig4a](https://github.com/benkraj/bkraj/raw/master/static/img/Fig4a.jpg)'
   focal_point: Smart
 
 
