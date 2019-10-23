@@ -1,15 +1,14 @@
 ---
-title: Mapping of Study Villages in Mali
-author: Ben Krajacich
+title: "Mapping of Study Villages in Mali"
+author: "Ben Krajacich"
 date: '2018-02-25'
 slug: mapping-of-study-villages-in-mali
-categories:
-  - R
 tags:
-  - Mali
-  - R
-  - Mapping
-  - R Markdown
+- Mali
+- R
+- Mapping
+- R Markdown
+categories: R
 ---
 
 
