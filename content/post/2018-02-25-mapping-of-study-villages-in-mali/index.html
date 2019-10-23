@@ -1,15 +1,34 @@
-<script src="index_files/kePrint-0.0.1/kePrint.js"></script>
-<script src="index_files/htmlwidgets-1.3/htmlwidgets.js"></script>
-<script src="index_files/jquery-1.12.4/jquery.min.js"></script>
-<link href="index_files/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
-<script src="index_files/leaflet-1.3.1/leaflet.js"></script>
-<link href="index_files/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
-<script src="index_files/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
-<script src="index_files/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="index_files/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="index_files/leaflet-binding-2.0.2/leaflet.js"></script>
-<script src="index_files/leaflet-providers-1.1.17/leaflet-providers.js"></script>
-<script src="index_files/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
+---
+title: Mapping of Study Villages in Mali
+author: Ben
+date: '2018-02-25'
+slug: mapping-of-study-villages-in-mali
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-10-23T12:16:02-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet/leaflet.js"></script>
+<link href="/rmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
+<link href="/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet-binding/leaflet.js"></script>
+<script src="/rmarkdown-libs/leaflet-providers/leaflet-providers.js"></script>
+<script src="/rmarkdown-libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
 
 
 <p>Because what good is a website if you can’t put something interactive on it?</p>
@@ -195,8 +214,8 @@ Guemou
   addLayersControl(
      baseGroups = c(&quot;OSM (default)&quot;, &quot;ESRI.WorldImagery&quot;),
      options = layersControlOptions(collapsed = FALSE))</code></pre>
-<div id="htmlwidget-98760f2d3616a7839deb" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-98760f2d3616a7839deb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[13.6586,14.16762,13.91442,13.61576,14.223473,13.9513,13.9289,13.0791,13.68805,13.59983,12.68387,10.42,14.5476],[-7.21471,-7.22793,-6.34382,-7.03689,-6.051057,-6.9708,-6.7094,-8.3589,-7.221029,-7.192859,-7.840419,-5.87,-9.31067],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Thierola","Siguima","Markabougou","Dallowere","Niono","Konani","Diessourouna","Torodo","Zanga","M'Piabougou","N'Gabakoro","Bia","Guemou"],null,null,null,["Thierola","Siguima","Markabougou","Dallowere","Niono","Konani","Diessourouna","Torodo","Zanga","M'Piabougou","N'Gabakoro","Bia","Guemou"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"ESRI.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.PositronOnlyLabels",null,"ESRI.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addLayersControl","args":[["OSM (default)","ESRI.WorldImagery"],[],{"collapsed":false,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[10.42,14.5476],"lng":[-9.31067,-5.87]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[13.6586,14.16762,13.91442,13.61576,14.223473,13.9513,13.9289,13.0791,13.68805,13.59983,12.68387,10.42,14.5476],[-7.21471,-7.22793,-6.34382,-7.03689,-6.051057,-6.9708,-6.7094,-8.3589,-7.221029,-7.192859,-7.840419,-5.87,-9.31067],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Thierola","Siguima","Markabougou","Dallowere","Niono","Konani","Diessourouna","Torodo","Zanga","M'Piabougou","N'Gabakoro","Bia","Guemou"],null,null,null,["Thierola","Siguima","Markabougou","Dallowere","Niono","Konani","Diessourouna","Torodo","Zanga","M'Piabougou","N'Gabakoro","Bia","Guemou"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"ESRI.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.PositronOnlyLabels",null,"ESRI.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addLayersControl","args":[["OSM (default)","ESRI.WorldImagery"],[],{"collapsed":false,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[10.42,14.5476],"lng":[-9.31067,-5.87]}},"evals":[],"jsHooks":[]}</script>
 <p>This includes two different tiles that you can toggle (Esri.WorldImagery and CartoDB). If you want more tiles— look <a href="http://leaflet-extras.github.io/leaflet-providers/preview/">here</a>.</p>
 <p>The addLayersControl option provides the toggle itself.</p>
 <p>These maps are rather customizable, but I have noticed that there is limited ability to deal with dense points (via either something analogous to ggrepel with ggplot or fading labels as you see in google earth). Maybe something to look into in the future.</p>

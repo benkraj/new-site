@@ -24,11 +24,7 @@ library('leaflet')
 library('knitr')
 library('kableExtra')
 ```
-Because what good is a website if you can't put something interactive on it?
-
-This is a bit of code mapping some of our study villages in Mali. It uses the leaflet package for visualization.
-
-First, make a data frame of points:
+Then create the leaflet app:
 
 ```{r}
 
@@ -44,10 +40,7 @@ Pin <- data.frame(site=c("Thierola", "Siguima", "Markabougou", "Dallowere", "Nio
 Pin %>%
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
-```
 
-Then create the leaflet app:
-``` {r leaflet}
 leaflet(data = Pin) %>% addTiles() %>%
   addMarkers(~longitude, ~latitude, popup = ~as.character(site), label = ~as.character(site)) %>%
   addProviderTiles(providers$Esri.WorldImagery, group="ESRI.WorldImagery") %>%
@@ -63,3 +56,4 @@ This includes two different tiles that you can toggle (Esri.WorldImagery and Car
 The addLayersControl option provides the toggle itself.
 
 These maps are rather customizable, but I have noticed that there is limited ability to deal with dense points (via either something analogous to ggrepel with ggplot or fading labels as you see in google earth). Maybe something to look into in the future.
+
