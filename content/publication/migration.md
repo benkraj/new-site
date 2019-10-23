@@ -3,7 +3,7 @@ title = "Windborne long-distance migration of malaria mosquitoes in the Sahel"
 date = "2019-10-02"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Diana L. Huestis", "Adama Dao", "Moussa Diallo", "Zana L. Sanogo", "Djibril Samake", "Alpha S. Yaro", "Yossi Ousman", "Yvonne-Marie Linton", "Asha Krishna", "Laura Veru", **"Benjamin J. Krajacich"**, "Roy Faiman", "Jenna Florio", "Jason W. Chapman", "Don R. Reynolds", "David Weetman", "Reed Mitchell", "Martin J. Donnelly", "Elijah Talamas", "Lourdes Chamorro", "Ehud Strobach", "Tovi Lehmann"]
+authors = ["Diana L. Huestis", "Adama Dao"]
 
 # Publication type.
 # Legend:
