@@ -21,9 +21,11 @@ organizations:
 #bio: I am a vector ecologist and microbiologist who is broadly interested in medical entomology that never strays too far from natural systems. My doctorate work was on the development of tools to help study the use of ivermectin as a malaria control measure in West Africa (Senegal, Liberia, and Burkina Faso), and my current work focuses on the dry-season persistence mechanisms of *Anopheles* spp. mosquitoes in Mali. Outside of work I like to ski, rock climb, and fly fish (past times of all Montanans...).
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Dry-season ecology
+- Next-generation sequencing
+- R
+- Open Science
+- Field Work!
 
 education:
   courses:

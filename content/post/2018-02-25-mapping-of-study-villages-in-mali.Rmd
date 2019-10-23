@@ -1,57 +1,52 @@
 ---
-title: "Mapping of Study Villages in Mali"
-author: "Ben Krajacich"
+title: Mapping of Study Villages in Mali
+authors: Ben Krajacich
 date: '2018-02-25'
-slug: mapping-of-study-villages-in-mali
-tags:
-- Mali
-- R
-- Mapping
-- R Markdown
-categories: R
+tags: [Mali]
+categories:
+  - R
+summary: Brief mapping of some of our study villages
+output: html_document
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Mapping Villages
-
-Because what good is a website if you can't put something interactive on it?
-
-This is a bit of code mapping some of our study villages in Mali. It uses the [leaflet](https://rstudio.github.io/leaflet/) package for visualization.
-
-
-First, make a data frame of points:
-```{r}
+library('tidyverse')
 library('leaflet')
 library('knitr')
-df <- data.frame(site=c("Thierola", "Siguima", "Markabougou", "Dallowere", "Niono", 
-                        "Konani", "Diessourouna", "Torodo", "Zanga", "M'Piabougou", 
-                        "N'Gabakoro", "Bia", "Guemou"),
-                 latitude = c(13.6586, 14.16762, 13.91442, 13.61576, 14.223473, 
-                              13.9513, 13.9289, 13.0791, 13.688050, 13.599830, 
-                              12.683870, 10.42, 14.5476),
-                 longitude = c(-7.21471, -7.22793, -6.34382, -7.03689, -6.051057, 
-                               -6.9708, -6.7094, -8.3589, -7.221029, -7.192859, 
-                               -7.840419, -5.87, -9.31067))
-kable(df)
+library('kableExtra')
 ```
+Because what good is a website if you can't put something interactive on it?
 
+This is a bit of code mapping some of our study villages in Mali. It uses the leaflet package for visualization.
 
-Then create the leaflet app:
+First, make a data frame of points:
 
 ```{r}
-leaflet(data=df) %>% 
-  addTiles(group = "OSM (default)") %>% 
-  addProviderTiles('Esri.WorldImagery', group="ESRI.WorldImagery") %>%
-  addProviderTiles("CartoDB.PositronOnlyLabels", group="ESRI.WorldImagery") %>%
-  addMarkers(~longitude, ~latitude, popup = ~as.character(site)) %>%
+
+Pin <- data.frame(site=c("Thierola", "Siguima", "Markabougou", "Dallowere", "Niono",
+                        "Konani", "Diessourouna", "Torodo", "Zanga", "M'Piabougou",
+                        "N'Gabakoro", "Bia", "Guemou"),
+                 latitude = c(13.6586, 14.16762, 13.91442, 13.61576, 14.223473,
+                              13.9513, 13.9289, 13.0791, 13.688050, 13.599830,
+                              12.683870, 10.42, 14.5476),
+                 longitude = c(-7.21471, -7.22793, -6.34382, -7.03689, -6.051057,
+                               -6.9708, -6.7094, -8.3589, -7.221029, -7.192859,
+                               -7.840419, -5.87, -9.31067))
+Pin %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+Then create the leaflet app:
+``` {r leaflet}
+leaflet(data = Pin) %>% addTiles() %>%
+  addMarkers(~longitude, ~latitude, popup = ~as.character(site), label = ~as.character(site)) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group="ESRI.WorldImagery") %>%
+  addProviderTiles(providers$CartoDB.PositronOnlyLabels, group="ESRI.WorldImagery") %>%   
   addLayersControl(
-    baseGroups = c("OSM (default)", "ESRI.WorldImagery"),
-    options = layersControlOptions(collapsed = FALSE)
-  ) 
+     baseGroups = c("OSM (default)", "ESRI.WorldImagery"),
+     options = layersControlOptions(collapsed = FALSE))
 
 ```
 
