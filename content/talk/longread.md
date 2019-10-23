@@ -20,7 +20,7 @@ projects = [""]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "https://rawgit.com/benkraj/talks/master/JournalClub.LongRead/23-Feb-17-journal.club.html#1"
+url_slides = "https://rawcdn.githack.com/benkraj/talks/38d250e1ac92ffaddb74d670abf1d479874a1586/JournalClub.LongRead/23-Feb-17-journal.club.html#1"
 url_video = ""
 url_code = ""
 
@@ -38,6 +38,6 @@ caption = ""
 
 +++
 
-<iframe src="https://rawgit.com/benkraj/talks/master/JournalClub.LongRead/23-Feb-17-journal.club.html#1" width="900" height="780" style="border: none;"></iframe>
+<iframe src="https://rawcdn.githack.com/benkraj/talks/38d250e1ac92ffaddb74d670abf1d479874a1586/JournalClub.LongRead/23-Feb-17-journal.club.html#1" width="900" height="780" style="border: none;"></iframe>
 
 This was a talk I gave to our journal club on the use of long-read sequencers for genomics and RNA analysis. I follow a few of the nanopore people on twitter, their [yearly conference (at least via hashtag)](https://twitter.com/nanopore/status/961555827181150208), and wanted to know a bit more about the technology. I also used this as an opportunity to try out using [Xaringan](https://yihui.name/en/2017/08/why-xaringan-remark-js/) for making presentations. This is an html5/R markdown based presentation-making alternative to powerpoint. I think I'll keep this in the workflow!
