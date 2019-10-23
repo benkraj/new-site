@@ -1,32 +1,26 @@
-+++
-# Date this page was created.
-date = "2018-02-25"
+---
+title: Seasonal change in the microbiome of *Anopheles coluzzii*
+date: 2018-02-25T00:00:00
+authors: Ben
+summary: Look into the seasonal microbiome of dry season Anopheles
+abstract: ""
+external_link: ""
+image:
+  caption: '[Fig4a](Fig4a.jpg)'
+  focal_point: Smart
 
-# Project title.
-title = "Seasonal change in the microbiome of *Anopheles coluzzii*"
 
-# Project summary to display on homepage.
-summary = ""
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "Fig4a.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["microbiome"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = ""
-
-+++
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: 
+---
 
 This is a project I took over once I got to the NIH looking at how the mosquito microbiome changes seasonally in areas of Mali either with permanent, year-round water, or in areas with no known water for ~7 months of the year. This work was done in hopes to better understand the dry season persistence mechanisms of <i>Anopheles</i> spp. mosquitoes, with hopes to move into understanding the impacts of this state on malaria transmission.
 
